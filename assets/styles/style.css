@@ -113,6 +113,12 @@ p {
   margin-right: 6px;
 }
 
+@media screen and (max-width: 900px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
 @media screen and (max-width: 560px) {
   .main-section {
     padding: 1.5rem 1rem;
